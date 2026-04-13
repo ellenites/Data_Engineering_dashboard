@@ -1,6 +1,6 @@
 # Intern Data Engineering / Data Analyst Challenge
 
-Small end-to-end pipeline: Federal Student Aid — Portfolio by Loan Type (NSLDS-related publication on [data.gov](https://catalog.data.gov/dataset/national-student-loan-data-system-722b0), file sourced from [studentaid.gov](https://studentaid.gov/)) plus World Development Indicators-style data. JSON indicator series are loaded via the World Bank public API (same codes as in the [Kaggle WDI JSON](https://www.kaggle.com/datasets/michaellang/world-bank-world-development-indicators-json) dataset); you can instead point `WDI_JSON_PATH` at a normalized extract from Kaggle.
+Small end-to-end pipeline: Federal Student Aid Portfolio by Loan Type (NSLDS-related publication on [data.gov](https://catalog.data.gov/dataset/national-student-loan-data-system-722b0), file sourced from [studentaid.gov](https://studentaid.gov/)) plus World Development Indicators-style data. JSON indicator series are loaded via the World Bank public API (same codes as in the [Kaggle WDI JSON](https://www.kaggle.com/datasets/michaellang/world-bank-world-development-indicators-json) dataset); you can instead point `WDI_JSON_PATH` at a normalized extract from Kaggle.
 
 ## Quick start
 
@@ -13,9 +13,9 @@ python -m streamlit run streamlit_app.py
 
 Outputs:
 
-- `data/pipeline.db` — SQLite warehouse
-- `data/processed/*.csv` — flat files for sharing or BI tools
-- `sql/schema.sql` — DDL
+- `data/pipeline.db`  SQLite warehouse
+- `data/processed/*.csv` flat files for sharing or BI tools
+- `sql/schema.sql`  DDL
 
 ## 1. Data extraction
 
@@ -24,9 +24,7 @@ Outputs:
 | NSLDS portfolio | Download XLS from `config.NSLDS_DOWNLOAD_URL` or use `data/raw/PortfoliobyLoanType.xls` / `NSLDS_LOCAL_PATH` |
 | WDI | Prefer World Bank API (`src/extract.py`); fallback to `data/raw/wdi_indicators_sample.json`; or set `WDI_JSON_PATH` to your Kaggle-normalized JSON |
 
-**Preview / integrity:** `run_pipeline.py` logs row counts and year ranges; `src/validate.py` asserts non-empty tables and reasonable null rates.
-
-**Very large data (out-of-core):** Use **chunked reads** (`pandas.read_csv(chunksize=...)`, `pyarrow.dataset`), **DuckDB** or **Polars** for lazy scans, **partitioned Parquet** on disk, or load straight into **PostgreSQL**/`COPY` with staging tables. Keep raw files immutable; track hashes for lineage.
+Preview / integrity: `run_pipeline.py` logs row counts and year ranges; `src/validate.py` asserts non-empty tables and reasonable null rates.
 
 ## 2. Cleaning and transformations
 
