@@ -1,6 +1,6 @@
 # Intern Data Engineering / Data Analyst Challenge
 
-Small end-to-end pipeline: **Federal Student Aid — Portfolio by Loan Type** (NSLDS-related publication on [data.gov](https://catalog.data.gov/dataset/national-student-loan-data-system-722b0), file sourced from [studentaid.gov](https://studentaid.gov/)) plus **World Development Indicators**-style data. JSON indicator series are loaded via the **World Bank public API** (same codes as in the [Kaggle WDI JSON](https://www.kaggle.com/datasets/michaellang/world-bank-world-development-indicators-json) dataset); you can instead point `WDI_JSON_PATH` at a normalized extract from Kaggle.
+Small end-to-end pipeline: Federal Student Aid — Portfolio by Loan Type (NSLDS-related publication on [data.gov](https://catalog.data.gov/dataset/national-student-loan-data-system-722b0), file sourced from [studentaid.gov](https://studentaid.gov/)) plus World Development Indicators-style data. JSON indicator series are loaded via the World Bank public API (same codes as in the [Kaggle WDI JSON](https://www.kaggle.com/datasets/michaellang/world-bank-world-development-indicators-json) dataset); you can instead point `WDI_JSON_PATH` at a normalized extract from Kaggle.
 
 ## Quick start
 
@@ -42,42 +42,8 @@ Outputs:
 ## 3. Data loading
 
 - **SQLite** file `data/pipeline.db` (see `sql/schema.sql`)
-- **Validation:** row counts, indicator coverage by `indicator_code`, null share on loan `value`
-
-## 4. Analysis and dashboard
-
-- **Streamlit + Plotly** (`streamlit_app.py`): loan balances and recipients over time; WDI line charts; **five narrative insights** on the “Key insights” tab.
-
-## 5. Pipeline automation and scaling (optional)
-
-- **Automation:** Apache Airflow / Dagster / cron calling `run_pipeline.py`; artifact upload (S3) and DB migration step.
-- **Incremental updates:** Store `last_successful_extract_ts` and pull only new periods (NSLDS quarterly files; WDI API `date=` window or partition folders for Parquet).
-- **Monitoring:** structured logging (JSON), Slack/email on validation failure, data quality checks (Great Expectations / custom SQL).
-
-## 6. Best practices
-
-- **Performance:** indexes on `fiscal_year`, `loan_type`, `(country_code, year)`; avoid `SELECT *` in production; batch inserts.
-- **Maintainability:** single config module, pure functions in `clean_transform.py`, schema in SQL file.
-- **Logging / alerting:** Python `logging` to stdout; extend with OpenTelemetry or cloud log sinks.
-
-## 7. Skills reflection
-
-- **Python:** pandas, requests, sqlite3, streamlit, plotly  
-- **SQL:** `CREATE TABLE`, indexes, `GROUP BY` validation queries  
-- **Practices:** idempotent loads (truncate or replace), typed cleaning, documented provenance (`WDI provenance` log line)
-
-## Deliverables checklist
-
-- [x] Python ETL (`run_pipeline.py`, `src/*`)
-- [x] Transformed data (`data/pipeline.db`, `data/processed/*.csv`) + schema (`sql/schema.sql`)
-- [x] Validation logs + this README
-- [x] Dashboard: Streamlit (run locally; capture screenshots for submission if required)
-- [x] Video script: `video_script.md`
+- **Validation:** row counts, indicator coverage by `indicator_code`and null share on loan `value`
 
 ## Kaggle WDI JSON
-
-Place a **normalized** JSON array of objects with at least: `country_code`, `country_name`, `indicator_code`, `indicator_name`, `year`, `value`. Set:
-
-`set WDI_JSON_PATH=C:\path\to\wdi_normalized.json` (Windows) or `export WDI_JSON_PATH=...` (Unix).
 
 The bundled `data/raw/wdi_indicators_sample.json` demonstrates the expected shape when API access is blocked.
