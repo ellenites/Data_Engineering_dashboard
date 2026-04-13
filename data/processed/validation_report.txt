@@ -1,0 +1,7 @@
+Validation report
+========================================
+[PASS] student_loan_portfolio rowcount: rows=672
+[PASS] loan values mostly populated: null value rows=0 of 672
+[PASS] wdi_indicators rowcount: rows=111
+[PASS] wdi coverage NY.GDP.PCAP.CD: countries=5 year_range=2010..2022
+[PASS] wdi coverage SE.XPD.TOTL.GD.ZS: countries=4 year_range=2010..2022

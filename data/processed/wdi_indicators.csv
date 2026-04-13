@@ -1,0 +1,112 @@
+country_code,country_name,indicator_code,indicator_name,year,value,log_gdp_per_capita
+DEU,Germany,SE.XPD.TOTL.GD.ZS,"Expenditure on education, total (% of GDP)",2022,5.23916006088257,
+DEU,Germany,SE.XPD.TOTL.GD.ZS,"Expenditure on education, total (% of GDP)",2021,5.36734008789062,
+DEU,Germany,SE.XPD.TOTL.GD.ZS,"Expenditure on education, total (% of GDP)",2020,5.51600980758667,
+DEU,Germany,SE.XPD.TOTL.GD.ZS,"Expenditure on education, total (% of GDP)",2019,5.02757978439331,
+DEU,Germany,SE.XPD.TOTL.GD.ZS,"Expenditure on education, total (% of GDP)",2018,4.88401985168457,
+DEU,Germany,SE.XPD.TOTL.GD.ZS,"Expenditure on education, total (% of GDP)",2017,4.77830982208252,
+DEU,Germany,SE.XPD.TOTL.GD.ZS,"Expenditure on education, total (% of GDP)",2016,4.76321983337402,
+DEU,Germany,SE.XPD.TOTL.GD.ZS,"Expenditure on education, total (% of GDP)",2015,4.76157999038696,
+DEU,Germany,SE.XPD.TOTL.GD.ZS,"Expenditure on education, total (% of GDP)",2014,4.82582998275757,
+DEU,Germany,SE.XPD.TOTL.GD.ZS,"Expenditure on education, total (% of GDP)",2013,4.83911991119385,
+DEU,Germany,SE.XPD.TOTL.GD.ZS,"Expenditure on education, total (% of GDP)",2012,4.83153009414673,
+DEU,Germany,SE.XPD.TOTL.GD.ZS,"Expenditure on education, total (% of GDP)",2011,4.88583993911743,
+DEU,Germany,SE.XPD.TOTL.GD.ZS,"Expenditure on education, total (% of GDP)",2010,4.99525022506714,
+ETH,Ethiopia,SE.XPD.TOTL.GD.ZS,"Expenditure on education, total (% of GDP)",2022,3.73649512188829,
+ETH,Ethiopia,SE.XPD.TOTL.GD.ZS,"Expenditure on education, total (% of GDP)",2021,4.06524874309096,
+ETH,Ethiopia,SE.XPD.TOTL.GD.ZS,"Expenditure on education, total (% of GDP)",2020,4.0905654220699,
+ETH,Ethiopia,SE.XPD.TOTL.GD.ZS,"Expenditure on education, total (% of GDP)",2019,4.48086946127054,
+ETH,Ethiopia,SE.XPD.TOTL.GD.ZS,"Expenditure on education, total (% of GDP)",2018,5.22011189522399,
+ETH,Ethiopia,SE.XPD.TOTL.GD.ZS,"Expenditure on education, total (% of GDP)",2017,5.49905076025271,
+ETH,Ethiopia,SE.XPD.TOTL.GD.ZS,"Expenditure on education, total (% of GDP)",2016,5.06151399998447,
+ETH,Ethiopia,SE.XPD.TOTL.GD.ZS,"Expenditure on education, total (% of GDP)",2015,4.73791868878759,
+ETH,Ethiopia,SE.XPD.TOTL.GD.ZS,"Expenditure on education, total (% of GDP)",2014,4.60201978683472,
+ETH,Ethiopia,SE.XPD.TOTL.GD.ZS,"Expenditure on education, total (% of GDP)",2013,4.4985499382019,
+ETH,Ethiopia,SE.XPD.TOTL.GD.ZS,"Expenditure on education, total (% of GDP)",2012,5.56677007675171,
+ETH,Ethiopia,SE.XPD.TOTL.GD.ZS,"Expenditure on education, total (% of GDP)",2011,5.4857702255249,
+ETH,Ethiopia,SE.XPD.TOTL.GD.ZS,"Expenditure on education, total (% of GDP)",2010,4.49659013748169,
+IND,India,SE.XPD.TOTL.GD.ZS,"Expenditure on education, total (% of GDP)",2022,4.09865814174589,
+IND,India,SE.XPD.TOTL.GD.ZS,"Expenditure on education, total (% of GDP)",2021,4.62949991226196,
+IND,India,SE.XPD.TOTL.GD.ZS,"Expenditure on education, total (% of GDP)",2020,4.29335021972656,
+IND,India,SE.XPD.TOTL.GD.ZS,"Expenditure on education, total (% of GDP)",2019,3.89732003211975,
+IND,India,SE.XPD.TOTL.GD.ZS,"Expenditure on education, total (% of GDP)",2018,4.36374998092651,
+IND,India,SE.XPD.TOTL.GD.ZS,"Expenditure on education, total (% of GDP)",2017,4.30543994903565,
+IND,India,SE.XPD.TOTL.GD.ZS,"Expenditure on education, total (% of GDP)",2016,4.25406980514526,
+IND,India,SE.XPD.TOTL.GD.ZS,"Expenditure on education, total (% of GDP)",2015,4.1145601272583,
+IND,India,SE.XPD.TOTL.GD.ZS,"Expenditure on education, total (% of GDP)",2014,3.89878023242693,
+IND,India,SE.XPD.TOTL.GD.ZS,"Expenditure on education, total (% of GDP)",2013,3.84467005729675,
+IND,India,SE.XPD.TOTL.GD.ZS,"Expenditure on education, total (% of GDP)",2012,3.8675000667572,
+IND,India,SE.XPD.TOTL.GD.ZS,"Expenditure on education, total (% of GDP)",2011,3.79618000984192,
+IND,India,SE.XPD.TOTL.GD.ZS,"Expenditure on education, total (% of GDP)",2010,3.377690076828,
+USA,United States,SE.XPD.TOTL.GD.ZS,"Expenditure on education, total (% of GDP)",2021,5.42038011550903,
+USA,United States,SE.XPD.TOTL.GD.ZS,"Expenditure on education, total (% of GDP)",2020,5.39530992507935,
+USA,United States,SE.XPD.TOTL.GD.ZS,"Expenditure on education, total (% of GDP)",2019,4.95746994018555,
+USA,United States,SE.XPD.TOTL.GD.ZS,"Expenditure on education, total (% of GDP)",2018,4.89502000808716,
+USA,United States,SE.XPD.TOTL.GD.ZS,"Expenditure on education, total (% of GDP)",2017,5.09296989440918,
+USA,United States,SE.XPD.TOTL.GD.ZS,"Expenditure on education, total (% of GDP)",2016,4.78327989578247,
+USA,United States,SE.XPD.TOTL.GD.ZS,"Expenditure on education, total (% of GDP)",2015,4.93064022064209,
+CHN,China,NY.GDP.PCAP.CD,GDP per capita (current US$),2022,12970.6056414327,4.112960255235301
+CHN,China,NY.GDP.PCAP.CD,GDP per capita (current US$),2021,12887.4357242941,4.110166512266044
+CHN,China,NY.GDP.PCAP.CD,GDP per capita (current US$),2020,10627.4637989619,4.0264296342754475
+CHN,China,NY.GDP.PCAP.CD,GDP per capita (current US$),2019,10342.9009524335,4.014642365734255
+CHN,China,NY.GDP.PCAP.CD,GDP per capita (current US$),2018,10085.6638148819,4.0037044877399275
+CHN,China,NY.GDP.PCAP.CD,GDP per capita (current US$),2017,8979.67652709856,3.953260692455011
+CHN,China,NY.GDP.PCAP.CD,GDP per capita (current US$),2016,8254.86859320357,3.9167101642492295
+CHN,China,NY.GDP.PCAP.CD,GDP per capita (current US$),2015,8175.33285077393,3.9125054435722824
+CHN,China,NY.GDP.PCAP.CD,GDP per capita (current US$),2014,7781.06597484974,3.891039097668699
+CHN,China,NY.GDP.PCAP.CD,GDP per capita (current US$),2013,7147.03518622344,3.854125920221366
+CHN,China,NY.GDP.PCAP.CD,GDP per capita (current US$),2012,6405.0574241349,3.8065230277377107
+CHN,China,NY.GDP.PCAP.CD,GDP per capita (current US$),2011,5703.76027973346,3.756161264498665
+CHN,China,NY.GDP.PCAP.CD,GDP per capita (current US$),2010,4629.24551710077,3.665510214676631
+DEU,Germany,NY.GDP.PCAP.CD,GDP per capita (current US$),2022,50506.5179638543,4.703347428278516
+DEU,Germany,NY.GDP.PCAP.CD,GDP per capita (current US$),2021,52349.2459994422,4.7189104307972904
+DEU,Germany,NY.GDP.PCAP.CD,GDP per capita (current US$),2020,47394.8734504469,4.675731367990736
+DEU,Germany,NY.GDP.PCAP.CD,GDP per capita (current US$),2019,47656.199739747,4.678119407337728
+DEU,Germany,NY.GDP.PCAP.CD,GDP per capita (current US$),2018,48916.1686612154,4.689452433759709
+DEU,Germany,NY.GDP.PCAP.CD,GDP per capita (current US$),2017,45553.9341495339,4.658525889665831
+DEU,Germany,NY.GDP.PCAP.CD,GDP per capita (current US$),2016,42948.9381932694,4.632952431438411
+DEU,Germany,NY.GDP.PCAP.CD,GDP per capita (current US$),2015,41929.7549110722,4.622522323861236
+DEU,Germany,NY.GDP.PCAP.CD,GDP per capita (current US$),2014,48959.5991203133,4.689837853162247
+DEU,Germany,NY.GDP.PCAP.CD,GDP per capita (current US$),2013,47206.8353514242,4.674004887203534
+DEU,Germany,NY.GDP.PCAP.CD,GDP per capita (current US$),2012,44718.0159214069,4.6504825262401726
+DEU,Germany,NY.GDP.PCAP.CD,GDP per capita (current US$),2011,47630.9761883572,4.677889482390708
+DEU,Germany,NY.GDP.PCAP.CD,GDP per capita (current US$),2010,42396.9665976293,4.6273347849644795
+ETH,Ethiopia,NY.GDP.PCAP.CD,GDP per capita (current US$),2022,982.103161506992,2.9921571090905053
+ETH,Ethiopia,NY.GDP.PCAP.CD,GDP per capita (current US$),2021,893.00983544905,2.9508562421558775
+ETH,Ethiopia,NY.GDP.PCAP.CD,GDP per capita (current US$),2020,829.790982547947,2.9189687109810882
+ETH,Ethiopia,NY.GDP.PCAP.CD,GDP per capita (current US$),2019,793.473247210264,2.8995322886399255
+ETH,Ethiopia,NY.GDP.PCAP.CD,GDP per capita (current US$),2018,739.702022272086,2.869056806021642
+ETH,Ethiopia,NY.GDP.PCAP.CD,GDP per capita (current US$),2017,696.348429076216,2.8428266001865987
+ETH,Ethiopia,NY.GDP.PCAP.CD,GDP per capita (current US$),2016,641.651523286233,2.8072992296222608
+ETH,Ethiopia,NY.GDP.PCAP.CD,GDP per capita (current US$),2015,597.912113218663,2.776637351966285
+ETH,Ethiopia,NY.GDP.PCAP.CD,GDP per capita (current US$),2014,549.986577082588,2.740352090275881
+ETH,Ethiopia,NY.GDP.PCAP.CD,GDP per capita (current US$),2013,484.039833104062,2.684881102523474
+ETH,Ethiopia,NY.GDP.PCAP.CD,GDP per capita (current US$),2012,452.101031885754,2.6552354982791018
+ETH,Ethiopia,NY.GDP.PCAP.CD,GDP per capita (current US$),2011,343.024942351887,2.5353257000193175
+ETH,Ethiopia,NY.GDP.PCAP.CD,GDP per capita (current US$),2010,330.619412798644,2.5193283502148875
+IND,India,NY.GDP.PCAP.CD,GDP per capita (current US$),2022,2347.44829434623,3.370596035133071
+IND,India,NY.GDP.PCAP.CD,GDP per capita (current US$),2021,2239.61384367482,3.3501731433259834
+IND,India,NY.GDP.PCAP.CD,GDP per capita (current US$),2020,1907.04251637669,3.2803603754906603
+IND,India,NY.GDP.PCAP.CD,GDP per capita (current US$),2019,2041.42863698585,3.3099342027233996
+IND,India,NY.GDP.PCAP.CD,GDP per capita (current US$),2018,1966.25455171679,3.293639740988341
+IND,India,NY.GDP.PCAP.CD,GDP per capita (current US$),2017,1950.10468280866,3.2900579251809203
+IND,India,NY.GDP.PCAP.CD,GDP per capita (current US$),2016,1707.50892912243,3.232362983427339
+IND,India,NY.GDP.PCAP.CD,GDP per capita (current US$),2015,1583.99815907985,3.1997546725174093
+IND,India,NY.GDP.PCAP.CD,GDP per capita (current US$),2014,1553.88396075118,3.1914185839069296
+IND,India,NY.GDP.PCAP.CD,GDP per capita (current US$),2013,1432.84397512195,3.156198901888806
+IND,India,NY.GDP.PCAP.CD,GDP per capita (current US$),2012,1429.32199520032,3.155130076926712
+IND,India,NY.GDP.PCAP.CD,GDP per capita (current US$),2011,1445.46127486037,3.160006461043179
+IND,India,NY.GDP.PCAP.CD,GDP per capita (current US$),2010,1347.51939071367,3.129535023372213
+USA,United States,NY.GDP.PCAP.CD,GDP per capita (current US$),2022,76657.2488844403,4.884553229009827
+USA,United States,NY.GDP.PCAP.CD,GDP per capita (current US$),2021,70205.050916026,4.846368358654702
+USA,United States,NY.GDP.PCAP.CD,GDP per capita (current US$),2020,63515.9491807833,4.802882792559293
+USA,United States,NY.GDP.PCAP.CD,GDP per capita (current US$),2019,64746.4506778863,4.811215965907607
+USA,United States,NY.GDP.PCAP.CD,GDP per capita (current US$),2018,62499.8744390068,4.795879144856055
+USA,United States,NY.GDP.PCAP.CD,GDP per capita (current US$),2017,59635.0984397965,4.775501940481339
+USA,United States,NY.GDP.PCAP.CD,GDP per capita (current US$),2016,57638.1018367192,4.7607096700008595
+USA,United States,NY.GDP.PCAP.CD,GDP per capita (current US$),2015,56572.9188996063,4.752608586894713
+USA,United States,NY.GDP.PCAP.CD,GDP per capita (current US$),2014,54973.4207515712,4.740152762021376
+USA,United States,NY.GDP.PCAP.CD,GDP per capita (current US$),2013,53179.0127634561,4.725740270653256
+USA,United States,NY.GDP.PCAP.CD,GDP per capita (current US$),2012,51708.4011556577,4.713561109421455
+USA,United States,NY.GDP.PCAP.CD,GDP per capita (current US$),2011,50024.868799398,4.699185958282318
+USA,United States,NY.GDP.PCAP.CD,GDP per capita (current US$),2010,48642.6100179312,4.6870168698414485
